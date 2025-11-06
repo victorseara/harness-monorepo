@@ -4,11 +4,13 @@ import fs from 'fs';
 import https from 'https';
 import path from 'path';
 import healthRouter from './routes/health/healthRouter';
+import rootRouter from './routes/root/root.router';
 
 export function createApp() {
   const app: Application = express();
 
   app.use(express.json());
+  app.use(rootRouter);
   app.use(healthRouter);
   return app;
 }
