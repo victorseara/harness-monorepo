@@ -1,0 +1,48 @@
+{
+  "name": "user-bff",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/user-bff/src",
+  "tags": ["scope:bff"],
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "outputs": ["{workspaceRoot}/dist/user-bff"],
+      "options": {
+        "command": "node build-lambda.js",
+        "cwd": "apps/user-bff",
+        "outputPath": "dist/apps/user-bff",
+        "outputFileName": "main.js"
+      }
+    },
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "user-bff:build",
+        "runBuildTargetDependencies": false
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "user-bff:build:development"
+        },
+        "production": {
+          "buildTarget": "user-bff:build:production"
+        }
+      }
+    },
+    "test": {
+      "options": {
+        "passWithNoTests": true
+      }
+    },
+    "package": {
+      "executor": "nx:run-commands",
+      "dependsOn": ["build"],
+      "options": {
+        "cwd": "{workspaceRoot}",
+        "command": "cd dist/apps/user-bff && zip -r ./deployment.zip ."
+      }
+    }
+  }
+}
