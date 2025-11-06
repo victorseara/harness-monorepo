@@ -37,6 +37,8 @@
   },
   "dependencies": {
     "@nx/eslint-plugin": "20.3.3",
+    "@sgwshub/dft-logger": "^0.4.0",
+    "@sgwshub/dft-logger-middleware": "^0.1.0",
     "axios": "^1.11.0",
     "express": "^5.1.0",
     "serverless-http": "^4.0.0"
