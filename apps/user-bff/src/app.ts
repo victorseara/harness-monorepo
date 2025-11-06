@@ -1,16 +1,13 @@
-import { loggerMiddleware } from '@sgwshub/dft-logger-middleware';
 import axios from 'axios';
 import express, { Application } from 'express';
 import fs from 'fs';
 import https from 'https';
 import path from 'path';
 import healthRouter from './routes/health/healthRouter';
-import { baseLogger } from './utils/loggerMiddleware';
 
 export function createApp() {
   const app: Application = express();
 
-  app.use(loggerMiddleware(baseLogger));
   app.use(express.json());
   app.use(healthRouter);
   return app;
