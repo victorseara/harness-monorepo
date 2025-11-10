@@ -5,6 +5,9 @@
   "references": [
     {
       "path": "./apps/user-bff"
+    },
+    {
+      "path": "./apps/homepage-bff"
     }
   ]
 }
