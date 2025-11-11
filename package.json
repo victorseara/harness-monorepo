@@ -10,7 +10,7 @@
     "@nx/jest": "20.3.3",
     "@nx/js": "20.3.3",
     "@nx/node": "20.3.3",
-    "@sgwshub/dft-bff-generator": "file:sgwshub-dft-bff-generator-1.0.0.tgz",
+    "@sgwshub/dft-bff-generator": "file:sgwshub-dft-bff-generator-1.5.0.tgz",
     "@swc-node/register": "~1.9.1",
     "@swc/cli": "~0.3.12",
     "@swc/core": "~1.5.7",

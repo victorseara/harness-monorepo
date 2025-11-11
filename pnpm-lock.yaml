@@ -43,8 +43,8 @@ importers:
         specifier: 20.3.3
         version: 20.3.3(@babel/traverse@7.28.5)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.25)(typescript@5.6.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.20)(@zkochan/js-yaml@0.0.7)(eslint@9.39.1(jiti@2.6.1))(nx@20.3.3(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.25)(typescript@5.6.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.20)(typescript@5.6.3))(typescript@5.6.3)
       '@sgwshub/dft-bff-generator':
-        specifier: file:sgwshub-dft-bff-generator-1.0.0.tgz
-        version: file:sgwshub-dft-bff-generator-1.0.0.tgz(@babel/traverse@7.28.5)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.25)(typescript@5.6.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.20)(@zkochan/js-yaml@0.0.7)(eslint@9.39.1(jiti@2.6.1))(nx@20.3.3(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.25)(typescript@5.6.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.20)(typescript@5.6.3))(typescript@5.6.3)
+        specifier: file:sgwshub-dft-bff-generator-1.5.0.tgz
+        version: file:sgwshub-dft-bff-generator-1.5.0.tgz(@babel/traverse@7.28.5)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.25)(typescript@5.6.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.20)(@zkochan/js-yaml@0.0.7)(eslint@9.39.1(jiti@2.6.1))(nx@20.3.3(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.25)(typescript@5.6.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.20)(typescript@5.6.3))(typescript@5.6.3)
       '@swc-node/register':
         specifier: ~1.9.1
         version: 1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.25)(typescript@5.6.3)
@@ -114,8 +114,6 @@ importers:
       typescript:
         specifier: ~5.6.2
         version: 5.6.3
-
-  apps/user-bff: {}
 
 packages:
 
@@ -1462,9 +1460,9 @@ packages:
     resolution: {integrity: sha512-VynGOEsVw2s8TAlLf/uESfrgfrq2+rcXB1muPJYBWbsm1Oa6r5qVQhjA5ggM6z/coYPrsVMgovl3Ff7Q7OCp1w==}
     engines: {node: '>=16.0.0'}
 
-  '@sgwshub/dft-bff-generator@file:sgwshub-dft-bff-generator-1.0.0.tgz':
-    resolution: {integrity: sha512-iihNXdDKK95wJ0n0G9IRVvNlcx1T/PejgEN76OWz/rVPb3mpcSVmFVYhHeLBfbQEWG4fkpDZL/4svH2e8n7J3g==, tarball: file:sgwshub-dft-bff-generator-1.0.0.tgz}
-    version: 1.0.0
+  '@sgwshub/dft-bff-generator@file:sgwshub-dft-bff-generator-1.5.0.tgz':
+    resolution: {integrity: sha512-oyPaZWUunV/7yfSSj7DSPT6rFMES723RHoqcFcULhreFMDTpcmc/HXfbCJUL95w1enovkPtabVeqZ3jBf/36vg==, tarball: file:sgwshub-dft-bff-generator-1.5.0.tgz}
+    version: 1.5.0
 
   '@sgwshub/dft-logger-middleware@0.1.0':
     resolution: {integrity: sha512-HY+hdUl+vQfCupHG81vmWDlNeV3C3EeJEEd4ABRilDvqdaGIaetFQKhR0bMbauM2bI/DYvElyRW5EWwybMA8IA==, tarball: https://npm.pkg.github.com/download/@sgwshub/dft-logger-middleware/0.1.0/cbb3d45d70605cc7d3149b18f5f46f982da97f7c}
@@ -5551,7 +5549,7 @@ snapshots:
 
   '@rspack/lite-tapable@1.0.1': {}
 
-  '@sgwshub/dft-bff-generator@file:sgwshub-dft-bff-generator-1.0.0.tgz(@babel/traverse@7.28.5)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.25)(typescript@5.6.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.20)(@zkochan/js-yaml@0.0.7)(eslint@9.39.1(jiti@2.6.1))(nx@20.3.3(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.25)(typescript@5.6.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.20)(typescript@5.6.3))(typescript@5.6.3)':
+  '@sgwshub/dft-bff-generator@file:sgwshub-dft-bff-generator-1.5.0.tgz(@babel/traverse@7.28.5)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.25)(typescript@5.6.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.20)(@zkochan/js-yaml@0.0.7)(eslint@9.39.1(jiti@2.6.1))(nx@20.3.3(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.25)(typescript@5.6.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.20)(typescript@5.6.3))(typescript@5.6.3)':
     dependencies:
       '@nx/devkit': 20.3.3(nx@20.3.3(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.25)(typescript@5.6.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))
       '@nx/node': 20.3.3(@babel/traverse@7.28.5)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.25)(typescript@5.6.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.20)(@zkochan/js-yaml@0.0.7)(eslint@9.39.1(jiti@2.6.1))(nx@20.3.3(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.25)(typescript@5.6.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.20)(typescript@5.6.3))(typescript@5.6.3)
