@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "incremental": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "lib": ["es2022"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "pretty": true,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "sourceMap": false,
+    "strict": true,
+    "target": "es2022",
+    "baseUrl": ".",
+    "rootDir": ".",
+    "typeRoots": [
+      "./common/types",
+      "./node_modules/@types",
+      "./node_modules",
+      "./apps"
+    ]
+  }
+}
